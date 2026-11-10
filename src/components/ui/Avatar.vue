@@ -7,8 +7,29 @@
         src: { type: String, default: '' },
         alt: { type: String, default: 'Avatar' },
         name: { type: String, default: '' },
-        initials: { type: String, default: 'WM' },
-        class: { type: String, default: '' }
+        initials: { type: String, default: 'W2' },
+        class: { type: [String, Object, Array], default: '' },
+        
+        // Prop de tamanho
+        size: { 
+            type: String, 
+            default: 'md',
+            validator: (val) => ['sm', 'md', 'lg', 'xl'].includes(val)
+        },
+        
+        // Prop de estilo/destaque
+        variant: { 
+            type: String, 
+            default: 'default',
+            validator: (val) => ['default', 'bordered', 'ring'].includes(val)
+        },
+
+        // Prop de formato
+        shape: {
+            type: String,
+            default: 'circle',
+            validator: (val) => ['circle', 'square'].includes(val)
+        }
     });
 
     const imageError = ref(false);
@@ -28,13 +49,35 @@
         if (props.name) return getAvatarColor(props.name);
         return 'bg-muted text-foreground';
     });
+
+    // Dicionários de classes Tailwind para as variantes
+    const sizeClasses = {
+        sm: 'h-8 w-8 text-xs',
+        md: 'h-10 w-10 text-sm',
+        lg: 'h-14 w-14 text-base',
+        xl: 'h-20 w-20 text-xl'
+    };
+
+    const variantClasses = {
+        default: 'border-none',
+        bordered: 'border-2 border-border',
+        ring: 'ring-2 ring-primary ring-offset-2 ring-offset-background'
+    };
+
+    const shapeClasses = {
+        circle: 'rounded-full',
+        square: 'rounded-lg'
+    };
 </script>
 
 <template>
     <div
         :class="
             cn(
-                'relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full bg-muted',
+                'relative flex shrink-0 overflow-hidden bg-muted',
+                sizeClasses[props.size],
+                variantClasses[props.variant],
+                shapeClasses[props.shape],
                 props.class
             )
         "
@@ -53,7 +96,8 @@
             v-else
             :class="
                 cn(
-                    'flex h-full w-full items-center justify-center rounded-full text-sm font-semibold',
+                    'flex h-full w-full items-center justify-center font-semibold',
+                    shapeClasses[props.shape],
                     classesCor
                 )
             "

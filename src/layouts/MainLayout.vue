@@ -11,18 +11,28 @@ const router = useRouter()
 
 const navigation = [
     {
-        title: 'Menu 01',
-        to: '/',
+        title: 'Accordion',
+        to: '/accordion',
         icon: LayoutDashboard,
     },
     {
-        title: 'Menu 02',
-        to: '/',
+        title: 'Avatar',
+        to: '/avatar',
         icon: LayoutDashboard,
     },
     {
-        title: 'Menu 04',
-        to: '/',
+        title: 'Badge',
+        to: '/badge',
+        icon: LayoutDashboard,
+    },
+    {
+        title: 'Breadcrumb',
+        to: '/breadcrumb',
+        icon: LayoutDashboard,
+    },
+    {
+        title: 'ComponentPreview',
+        to: '/component-preview',
         icon: LayoutDashboard,
     },
 ]
