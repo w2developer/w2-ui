@@ -13,7 +13,6 @@ const previewCode = `
             <Button variant="outline">Cancelar</Button>
         </div>\`;
 <\/script>
-
 <template>
     <ComponentPreview :code="codigo" language="vue">
         <div class="flex gap-4">

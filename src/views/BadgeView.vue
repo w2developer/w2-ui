@@ -7,7 +7,6 @@
 <script setup>
     import Badge from '@/components/ui/Badge.vue';
 <\/script>
-
 <template>
     <Badge variant="default">Default</Badge>
     <Badge variant="secondary">Secondary</Badge>

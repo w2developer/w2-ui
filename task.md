@@ -4,12 +4,12 @@
 # AccordionTrigger.vue
 # Avatar.vue
 # Badge.vue
-Breadcrumb.vue
-Button.vue
-Card.vue
-CardContent.vue
-CardHeader.vue
-Checkbox.vue
+# Breadcrumb.vue
+# Button.vue
+# Card.vue
+# CardContent.vue
+# CardHeader.vue
+# Checkbox.vue
 # CodeBlock.vue
 CommandMenu.vue
 # ComponentPreview.vue

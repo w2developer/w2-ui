@@ -16,10 +16,8 @@ const accordionCode = `
     import AccordionItem from '@/components/ui/AccordionItem.vue';
     import AccordionTrigger from '@/components/ui/AccordionTrigger.vue';
     import AccordionContent from '@/components/ui/AccordionContent.vue';
-
     const state = ref('item-1');
 <\/script>
-
 <template>
     <Accordion v-model="state">
         <AccordionItem value="item-1">
