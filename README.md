@@ -1,38 +1,43 @@
-# .
+# W2Ui
 
-This template should help get you started developing with Vue 3 in Vite.
+Uma biblioteca de componentes de interface (UI) desenvolvida para uso pessoal. Construída com Vue 3, Tailwind CSS e Vite, a W2Ui é focada em produtividade, consistência e facilidade de integração.
 
-## Recommended IDE Setup
+ Demo e Código: 
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologias Utilizadas
 
-## Recommended Browser Setup
+* Framework: Vue 3 (Composition API)
+* Estilização: Tailwind CSS v4
+* Build Tool: Vite
+* Gerenciamento de Estado: Pinia
+* Roteamento: Vue Router
+* Ícones: Lucide Vue
+* Backend/BaaS: Supabase
+* Utilitários: clsx, tailwind-merge, class-variance-authority
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Instalação e Uso Local
 
-## Customize configuration
+1. Instale as dependências do projeto:
+npm install
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. Inicie o servidor de desenvolvimento:
+npm run dev
 
-## Project Setup
+3. Para gerar o build de produção:
+npm run build
 
-```sh
-pnpm install
-```
+4. Para formatar o código:
+npm run format
 
-### Compile and Hot-Reload for Development
+## Componentes Disponíveis
 
-```sh
-pnpm dev
-```
+A biblioteca possui uma arquitetura modular com os seguintes componentes já implementados:
 
-### Compile and Minify for Production
+* Layout & Estrutura: AppLayout, Navbar, Sidebar, SidebarItem, Breadcrumb, Tabs (List, Trigger, Content)
+* Interação & Formulários: Button, Input, Textarea, Checkbox, Select, Switch, CommandMenu, FormGroup, Label
+* Exibição de Dados: Card (Header, Content), Table (Header, Body, Row, Head, Cell), Accordion (Item, Trigger, Content), Avatar, Badge, CodeBlock
+* Feedback & Utilitários: Modal, Skeleton, Toaster, Tooltip, ComponentPreview
 
-```sh
-pnpm build
-```
+## Utilitários Base
+
+O projeto conta com funções utilitárias essenciais para o funcionamento da UI, incluindo a função cn() (mesclando clsx e tailwind-merge) para resolver conflitos de classes do Tailwind de forma dinâmica e limpa.
