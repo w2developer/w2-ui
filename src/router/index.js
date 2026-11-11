@@ -42,11 +42,11 @@ children: [
                     name: 'Checkbox',
                     component: () => import('@/views/CheckboxView.vue')
                 },
-                // {
-                //     path: 'code-block',
-                //     name: 'CodeBlock',
-                //     component: () => import('@/views/CodeBlockView.vue')
-                // },
+                {
+                    path: 'code-block',
+                    name: 'CodeBlock',
+                    component: () => import('@/views/CodeBlockView.vue')
+                },
                 // {
                 //     path: 'command-menu',
                 //     name: 'CommandMenu',
@@ -57,16 +57,16 @@ children: [
                     name: 'ComponentPreview',
                     component: () => import('@/views/ComponentPreviewView.vue')
                 },
-                // {
-                //     path: 'dropdown',
-                //     name: 'Dropdown',
-                //     component: () => import('@/views/DropdownView.vue')
-                // },
-                // {
-                //     path: 'form-group',
-                //     name: 'FormGroup',
-                //     component: () => import('@/views/FormGroupView.vue')
-                // },
+                {
+                    path: 'dropdown',
+                    name: 'Dropdown',
+                    component: () => import('@/views/DropdownView.vue')
+                },
+                {
+                    path: 'form-group',
+                    name: 'FormGroup',
+                    component: () => import('@/views/FormGroupView.vue')
+                },
                 // {
                 //     path: 'input',
                 //     name: 'Input',

@@ -42,7 +42,7 @@ Se for solicitado a criação de uma nova tela, formulário ou dashboard:
 2. **USE os componentes desta documentação.** Importe e utilize `<FormGroup>`, `<Input>`, `<Card>`, `<Button>`, etc.
 3. Utilize as props mapeadas nos exemplos abaixo.
 
----
+--- 
 
 ## 📖 Exemplos Práticos e Referência de Código
 

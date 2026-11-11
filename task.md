@@ -13,7 +13,7 @@
 # CodeBlock.vue
 CommandMenu.vue
 # ComponentPreview.vue
-Dropdown.vue
+# Dropdown.vue
 FormGroup.vue
 Input.vue
 Label.vue

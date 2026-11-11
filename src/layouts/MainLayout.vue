@@ -45,11 +45,11 @@ const navigation = [
         to: '/checkbox',
         icon: LayoutDashboard,
     },
-    // {
-    //     title: 'CodeBlock',
-    //     to: '/code-block',
-    //     icon: LayoutDashboard,
-    // },
+    {
+        title: 'CodeBlock',
+        to: '/code-block',
+        icon: LayoutDashboard,
+    },
     // {
     //     title: 'CommandMenu',
     //     to: '/command-menu',
@@ -60,16 +60,16 @@ const navigation = [
         to: '/component-preview',
         icon: LayoutDashboard,
     },
-    // {
-    //     title: 'Dropdown',
-    //     to: '/dropdown',
-    //     icon: LayoutDashboard,
-    // },
-    // {
-    //     title: 'FormGroup',
-    //     to: '/form-group',
-    //     icon: LayoutDashboard,
-    // },
+    {
+        title: 'Dropdown',
+        to: '/dropdown',
+        icon: LayoutDashboard,
+    },
+    {
+        title: 'FormGroup',
+        to: '/form-group',
+        icon: LayoutDashboard,
+    },
     // {
     //     title: 'Input',
     //     to: '/input',
