@@ -247,7 +247,7 @@ onMounted(() => setTimeout(() => isLoading.value = false, 2000));
             </Tooltip>
         </div>
 
-        <!-- 2. Skeleton (Loading) -->
+        <!-- 2. Skeleton (Loading) --> 
         <div v-if="isLoading" class="flex gap-4">
             <Skeleton class="w-12 h-12 rounded-full"/>
             <div class="space-y-2">

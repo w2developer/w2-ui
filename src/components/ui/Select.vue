@@ -95,7 +95,7 @@
             :aria-expanded="isOpen"
             :class="
                 cn(
-                    'flex h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-1.5 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50',
+                    'flex gap-2 h-9 w-full items-center justify-between rounded-md border bg-transparent px-3 py-1.5 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50',
                     error
                         ? 'border-destructive focus-visible:ring-destructive'
                         : 'border-border focus-visible:ring-ring',

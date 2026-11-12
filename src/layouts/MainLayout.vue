@@ -1,5 +1,5 @@
 <script setup>
-import { LayoutDashboard } from '@lucide/vue'
+import { LayoutDashboard, ArrowRight } from '@lucide/vue'
 import { useRouter } from 'vue-router'
 import { onMounted } from 'vue'
 
@@ -13,157 +13,157 @@ const navigation = [
     {
         title: 'Accordion',
         to: '/accordion',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Avatar',
         to: '/avatar',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Badge',
         to: '/badge',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Breadcrumb',
         to: '/breadcrumb',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Button',
         to: '/button',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Card',
         to: '/card',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Checkbox',
         to: '/checkbox',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'CodeBlock',
         to: '/code-block',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'CommandMenu',
         to: '/command-menu',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'ComponentPreview',
         to: '/component-preview',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Dropdown',
         to: '/dropdown',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'FormGroup',
         to: '/form-group',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Input',
         to: '/input',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Label',
         to: '/label',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Modal',
         to: '/modal',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Select',
         to: '/select',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Skeleton',
         to: '/skeleton',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Switch',
         to: '/switch',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Table',
         to: '/table',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TableBody',
         to: '/table-body',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TableCell',
         to: '/table-cell',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TableHead',
         to: '/table-head',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TableHeader',
         to: '/table-header',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TableRow',
         to: '/table-row',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Tabs',
         to: '/tabs',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TabsContent',
         to: '/tabs-content',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TabsList',
         to: '/tabs-list',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'TabsTrigger',
         to: '/tabs-trigger',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Textarea',
         to: '/textarea',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Toaster',
         to: '/toaster',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
     {
         title: 'Tooltip',
         to: '/tooltip',
-        icon: LayoutDashboard,
+        icon: ArrowRight,
     },
 ]
 
