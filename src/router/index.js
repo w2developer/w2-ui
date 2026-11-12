@@ -47,11 +47,11 @@ children: [
                     name: 'CodeBlock',
                     component: () => import('@/views/CodeBlockView.vue')
                 },
-                // {
-                //     path: 'command-menu',
-                //     name: 'CommandMenu',
-                //     component: () => import('@/views/CommandMenuView.vue')
-                // },
+                {
+                    path: 'command-menu',
+                    name: 'CommandMenu',
+                    component: () => import('@/views/CommandMenuView.vue')
+                },
                 {
                     path: 'component-preview',
                     name: 'ComponentPreview',
@@ -67,101 +67,101 @@ children: [
                     name: 'FormGroup',
                     component: () => import('@/views/FormGroupView.vue')
                 },
-                // {
-                //     path: 'input',
-                //     name: 'Input',
-                //     component: () => import('@/views/InputView.vue')
-                // },
-                // {
-                //     path: 'label',
-                //     name: 'Label',
-                //     component: () => import('@/views/LabelView.vue')
-                // },
-                // {
-                //     path: 'modal',
-                //     name: 'Modal',
-                //     component: () => import('@/views/ModalView.vue')
-                // },
-                // {
-                //     path: 'select',
-                //     name: 'Select',
-                //     component: () => import('@/views/SelectView.vue')
-                // },
-                // {
-                //     path: 'skeleton',
-                //     name: 'Skeleton',
-                //     component: () => import('@/views/SkeletonView.vue')
-                // },
-                // {
-                //     path: 'switch',
-                //     name: 'Switch',
-                //     component: () => import('@/views/SwitchView.vue')
-                // },
-                // {
-                //     path: 'table',
-                //     name: 'Table',
-                //     component: () => import('@/views/TableView.vue')
-                // },
-                // {
-                //     path: 'table-body',
-                //     name: 'TableBody',
-                //     component: () => import('@/views/TableBodyView.vue')
-                // },
-                // {
-                //     path: 'table-cell',
-                //     name: 'TableCell',
-                //     component: () => import('@/views/TableCellView.vue')
-                // },
-                // {
-                //     path: 'table-head',
-                //     name: 'TableHead',
-                //     component: () => import('@/views/TableHeadView.vue')
-                // },
-                // {
-                //     path: 'table-header',
-                //     name: 'TableHeader',
-                //     component: () => import('@/views/TableHeaderView.vue')
-                // },
-                // {
-                //     path: 'table-row',
-                //     name: 'TableRow',
-                //     component: () => import('@/views/TableRowView.vue')
-                // },
-                // {
-                //     path: 'tabs',
-                //     name: 'Tabs',
-                //     component: () => import('@/views/TabsView.vue')
-                // },
-                // {
-                //     path: 'tabs-content',
-                //     name: 'TabsContent',
-                //     component: () => import('@/views/TabsContentView.vue')
-                // },
-                // {
-                //     path: 'tabs-list',
-                //     name: 'TabsList',
-                //     component: () => import('@/views/TabsListView.vue')
-                // },
-                // {
-                //     path: 'tabs-trigger',
-                //     name: 'TabsTrigger',
-                //     component: () => import('@/views/TabsTriggerView.vue')
-                // },
-                // {
-                //     path: 'textarea',
-                //     name: 'Textarea',
-                //     component: () => import('@/views/TextareaView.vue')
-                // },
-                // {
-                //     path: 'toaster',
-                //     name: 'Toaster',
-                //     component: () => import('@/views/ToasterView.vue')
-                // },
-                // {
-                //     path: 'tooltip',
-                //     name: 'Tooltip',
-                //     component: () => import('@/views/TooltipView.vue')
-                // }
+                {
+                    path: 'input',
+                    name: 'Input',
+                    component: () => import('@/views/InputView.vue')
+                },
+                {
+                    path: 'label',
+                    name: 'Label',
+                    component: () => import('@/views/LabelView.vue')
+                },
+                {
+                    path: 'modal',
+                    name: 'Modal',
+                    component: () => import('@/views/ModalView.vue')
+                },
+                {
+                    path: 'select',
+                    name: 'Select',
+                    component: () => import('@/views/SelectView.vue')
+                },
+                {
+                    path: 'skeleton',
+                    name: 'Skeleton',
+                    component: () => import('@/views/SkeletonView.vue')
+                },
+                {
+                    path: 'switch',
+                    name: 'Switch',
+                    component: () => import('@/views/SwitchView.vue')
+                },
+                {
+                    path: 'table',
+                    name: 'Table',
+                    component: () => import('@/views/TableView.vue')
+                },
+                {
+                    path: 'table-body',
+                    name: 'TableBody',
+                    component: () => import('@/views/TableBodyView.vue')
+                },
+                {
+                    path: 'table-cell',
+                    name: 'TableCell',
+                    component: () => import('@/views/TableCellView.vue')
+                },
+                {
+                    path: 'table-head',
+                    name: 'TableHead',
+                    component: () => import('@/views/TableHeadView.vue')
+                },
+                {
+                    path: 'table-header',
+                    name: 'TableHeader',
+                    component: () => import('@/views/TableHeaderView.vue')
+                },
+                {
+                    path: 'table-row',
+                    name: 'TableRow',
+                    component: () => import('@/views/TableRowView.vue')
+                },
+                {
+                    path: 'tabs',
+                    name: 'Tabs',
+                    component: () => import('@/views/TabsView.vue')
+                },
+                {
+                    path: 'tabs-content',
+                    name: 'TabsContent',
+                    component: () => import('@/views/TabsContentView.vue')
+                },
+                {
+                    path: 'tabs-list',
+                    name: 'TabsList',
+                    component: () => import('@/views/TabsListView.vue')
+                },
+                {
+                    path: 'tabs-trigger',
+                    name: 'TabsTrigger',
+                    component: () => import('@/views/TabsTriggerView.vue')
+                },
+                {
+                    path: 'textarea',
+                    name: 'Textarea',
+                    component: () => import('@/views/TextareaView.vue')
+                },
+                {
+                    path: 'toaster',
+                    name: 'Toaster',
+                    component: () => import('@/views/ToasterView.vue')
+                },
+                {
+                    path: 'tooltip',
+                    name: 'Tooltip',
+                    component: () => import('@/views/TooltipView.vue')
+                }
             ]
         },
     ],

@@ -91,7 +91,7 @@ import Checkbox from '@/components/ui/Checkbox.vue';
 
 const form = ref({ name: '', bio: '', role: 'user', active: true, terms: false });
 </script>
-
+ 
 <template>
     <form class="space-y-6 max-w-md">
         <FormGroup description="Como prefere ser chamado." id="name" label="Nome Completo">

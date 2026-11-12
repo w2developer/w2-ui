@@ -41,5 +41,7 @@ const navigation = inject('navigation')
                 <SidebarItem v-for="item in navigation" :key="item.title" :item="item" />
             </ul>
         </nav>
+        <br>
+        <br>
     </aside>
 </template>
