@@ -20,7 +20,7 @@
 # Modal.vue 
 # Select.vue
 # Skeleton.vue
-Switch.vue
+# Switch.vue
 Table.vue
 TableBody.vue
 TableCell.vue

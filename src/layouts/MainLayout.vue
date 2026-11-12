@@ -86,6 +86,11 @@ const navigation = [
         icon: ArrowRight,
     },
     {
+        title: 'ResponsiveTable',
+        to: '/responsive-table',
+        icon: ArrowRight,
+    },
+    {
         title: 'Select',
         to: '/select',
         icon: ArrowRight,
@@ -103,31 +108,6 @@ const navigation = [
     {
         title: 'Table',
         to: '/table',
-        icon: ArrowRight,
-    },
-    {
-        title: 'TableBody',
-        to: '/table-body',
-        icon: ArrowRight,
-    },
-    {
-        title: 'TableCell',
-        to: '/table-cell',
-        icon: ArrowRight,
-    },
-    {
-        title: 'TableHead',
-        to: '/table-head',
-        icon: ArrowRight,
-    },
-    {
-        title: 'TableHeader',
-        to: '/table-header',
-        icon: ArrowRight,
-    },
-    {
-        title: 'TableRow',
-        to: '/table-row',
         icon: ArrowRight,
     },
     {

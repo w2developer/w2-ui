@@ -83,6 +83,11 @@ children: [
                     component: () => import('@/views/ModalView.vue')
                 },
                 {
+                    path: 'responsive-table',
+                    name: 'ResponsiveTable',
+                    component: () => import('@/views/ResponsiveTableView.vue')
+                },
+                {
                     path: 'select',
                     name: 'Select',
                     component: () => import('@/views/SelectView.vue')
@@ -101,31 +106,6 @@ children: [
                     path: 'table',
                     name: 'Table',
                     component: () => import('@/views/TableView.vue')
-                },
-                {
-                    path: 'table-body',
-                    name: 'TableBody',
-                    component: () => import('@/views/TableBodyView.vue')
-                },
-                {
-                    path: 'table-cell',
-                    name: 'TableCell',
-                    component: () => import('@/views/TableCellView.vue')
-                },
-                {
-                    path: 'table-head',
-                    name: 'TableHead',
-                    component: () => import('@/views/TableHeadView.vue')
-                },
-                {
-                    path: 'table-header',
-                    name: 'TableHeader',
-                    component: () => import('@/views/TableHeaderView.vue')
-                },
-                {
-                    path: 'table-row',
-                    name: 'TableRow',
-                    component: () => import('@/views/TableRowView.vue')
                 },
                 {
                     path: 'tabs',
