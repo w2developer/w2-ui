@@ -17,7 +17,7 @@
 # FormGroup.vue
 # Input.vue
 # Label.vue
-# Modal.vue
+# Modal.vue 
 Select.vue
 Skeleton.vue
 Switch.vue
