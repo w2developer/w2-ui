@@ -85,11 +85,11 @@ const navigation = [
         to: '/modal',
         icon: ArrowRight,
     },
-    {
-        title: 'ResponsiveTable',
-        to: '/responsive-table',
-        icon: ArrowRight,
-    },
+    // {
+    //     title: 'ResponsiveTable',
+    //     to: '/responsive-table',
+    //     icon: ArrowRight,
+    // },
     {
         title: 'Select',
         to: '/select',

@@ -45,3 +45,19 @@ export const getBadgeVariantMatricula = (situacao) => {
     if (str === 'trancado') return 'secondary';
     return 'outline';
 };
+
+// src/utils/formatadores.js
+export function formatarMoeda(valor) {
+    const numero = Number(valor);
+    
+    // Retorna zero se não for número
+    if (isNaN(numero)) {
+        return 'R$ 0,00';
+    }
+    
+    // Formata para Real brasileiro
+    return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+    }).format(numero);
+}
