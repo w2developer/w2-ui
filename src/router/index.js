@@ -6,7 +6,13 @@ const router = createRouter({
         {
             path: '/',
             component: () => import('@/layouts/MainLayout.vue'),
-children: [
+            redirect: '/home',
+            children: [
+                {
+                    path: 'home',
+                    name: 'Home',
+                    component: () => import('@/views/HomeView.vue')
+                },
                 {
                     path: 'accordion',
                     name: 'Accordion',

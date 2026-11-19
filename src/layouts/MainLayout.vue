@@ -1,5 +1,5 @@
 <script setup>
-import { LayoutDashboard, ArrowRight } from '@lucide/vue'
+import { LayoutDashboard, ArrowRight, Home } from '@lucide/vue'
 import { useRouter } from 'vue-router'
 import { onMounted } from 'vue'
 
@@ -10,6 +10,11 @@ import Navbar from '@/components/layout/Navbar.vue'
 const router = useRouter()
 
 const navigation = [
+    {
+        title: 'Home',
+        to: '/home',
+        icon: Home,
+    },
     {
         title: 'Accordion',
         to: '/accordion',
